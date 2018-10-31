@@ -22,7 +22,7 @@ public class DFrame extends JFrame {
         this.add(rb11);
         this.add(rb12);
         this.add(rb13);
-
+//22:31
         lb2 = new JLabel("选择性别");
         rb21 = new JRadioButton("男");
         rb22 = new JRadioButton("女");

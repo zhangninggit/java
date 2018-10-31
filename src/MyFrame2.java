@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.awt.*;
 
-
+//这是监听事件的Demo
 public class MyFrame2 extends JFrame{
     JTextField tf1,tf2;
     JButton bt;

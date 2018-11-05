@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-//å¤é€‰æ¡†
+//¸´Ñ¡¿ò
 public class CFrame extends JFrame {
     JCheckBox cb1,cb2,cb3;
     JLabel lb;
@@ -9,11 +9,11 @@ public class CFrame extends JFrame {
         super(s);
         this.setBounds(200,200,500,500);
         this.setLayout(new FlowLayout());
-        lb = new JLabel("è¯·é€‰æ‹©å–œæ¬¢çš„é¢œè‰²");
+        lb = new JLabel("ÇëÑ¡ÔñÏ²»¶µÄÑÕÉ«");
         this.add(lb);
-        cb1 = new JCheckBox("çº¢");
-        cb2 = new JCheckBox("ç»¿");
-        cb3 = new JCheckBox("è“");
+        cb1 = new JCheckBox("ºì");
+        cb2 = new JCheckBox("ÂÌ");
+        cb3 = new JCheckBox("À¶");
 
         this.add(cb1);
         this.add(cb2);
@@ -23,6 +23,6 @@ public class CFrame extends JFrame {
     }
     public static void main(String [] args)
     {
-        new CFrame("å¤é€‰æ¡†");
+        new CFrame("¸´Ñ¡¿ò");
     }
 }

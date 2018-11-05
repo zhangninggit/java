@@ -33,6 +33,7 @@ public class MyFrame3 extends JFrame{
     }
 
     public static void main(String[] args) {
+
         new MyFrame3("获取鼠标坐标");
     }
 }

@@ -1,6 +1,3 @@
-package ThreadA;
-
-import javax.swing.*;
 
 /*通过Runnable接口创建线程的步骤如下：
 
@@ -10,10 +7,10 @@ import javax.swing.*;
 
 3、通过Thread类中的start()方法启动线程，并运行。
 
-
 注：直接调用Thread类或Runnable类对象的run（）方法是无法启动线程的，这只是一个简单的方法调用必须通过Thread方法中的start（）才行。
 */
-
+package ThreadA;
+import javax.swing.*;
 
 //线程实现窗口标语循环滚动Demo
 public class MyFrameThread extends JFrame implements Runnable {
